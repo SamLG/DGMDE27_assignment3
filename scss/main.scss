@@ -7,3 +7,18 @@
 @import "components/dotnav.scss";
 @import "components/slidenav.scss";
 @import "components/slideshow.scss"; 
+
+// my custom styling
+
+footer {
+	text-align: center;
+	border-top: 1px solid black;
+	margin-top: 2em;
+	padding: 1em;
+	background-color: $soft-green;
+}
+
+h1 {
+	color: black;
+	font-weight: 500;
+}

@@ -78,7 +78,9 @@
 @mixin hook-nav-search-divider(){}
 @mixin hook-offcanvas-search-field(){}
 @mixin hook-search-misc(){}
-@mixin hook-slidenav(){}
+@mixin hook-slidenav(){
+	max-width: 300px;
+}
 @mixin hook-slidenav-hover(){}
 @mixin hook-slidenav-active(){}
 @mixin hook-slidenav-contrast(){}
@@ -86,7 +88,21 @@
 @mixin hook-slidenav-contrast-active(){}
 @mixin hook-slidenav-misc(){}
 @mixin hook-slider-misc(){}
-@mixin hook-slideshow-misc(){}
+@mixin hook-slideshow-misc(){
+	.uk-slideshow {
+		max-width: 300px;
+		max-height: 300px;
+		margin: 0 auto;
+	}
+	@media (min-width:370px) and (max-width:768px) {
+		.uk-slidenav-position .uk-slidenav-previous { 
+			left: 27%; 
+		}
+		.uk-slidenav-position .uk-slidenav-next { 
+			right: 27%; 
+		}
+	}
+}
 @mixin hook-sortable(){}
 @mixin hook-sortable-dragged(){}
 @mixin hook-sortable-placeholder(){}
@@ -195,7 +211,13 @@
 @mixin hook-contrast-icon-button-hover(){}
 @mixin hook-contrast-icon-button-active(){}
 @mixin hook-contrast-misc(){}
-@mixin hook-cover-misc(){}
+@mixin hook-cover-misc(){
+	.uk-position-cover {
+		background-color: rgba(255, 255, 255, .4); //ensures a higher level of contrast for text
+		// oddly if I adjust the height I break the slideshow... 
+		// height: 205px; //make the cover fit the background
+	}
+}
 @mixin hook-description-list-misc(){}
 @mixin hook-dropdown(){}
 @mixin hook-dropdown-navbar(){}
