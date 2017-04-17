@@ -1,29 +1,108 @@
+<!-- use picturefill for real responsive images -->
 <!DOCTYPE html>
 <html>
     <head>
         <title></title>
-        <link rel="stylesheet" href="css/uikit.min.css" />
+<!--         <link rel="stylesheet" href="css/uikit.gradient.min.css" />
+ -->        <!-- <link rel="stylesheet" href="css/components/slideshow.gradient.min.css">
+        <link rel="stylesheet" href="css/components/slidenav.gradient.min.css">
+        <link rel="stylesheet" href="css/components/dotnav.gradient.min.css"> -->
+        <link rel="stylesheet" href="css/main.css" />
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>        
 		<script src="js/uikit.min.js"></script>
+		<script type="text/javascript" src="js/components/slideshow.min.js"></script>
     </head>
-    <body>
+    <body class="uk-width-medium-9-10 uk-container-center">
     	<header>
-		<nav>
-			<ul>
-				
-			</ul>
-		</nav>
-		<h1>Are Progressive Web Apps The Future Of Applications?</h1>
-		</header>
-		<article>
-			<h2>What It Is</h2>
-			<p>Progressive Web Apps are supposed to be the best of both worlds. A web application that is able to function as a mobile application. Progressive Web Apps allow the developer to utilize frameworks, apis, various tools from web application development. This means powerful applications with functionality that can be created more quickly by utilizing existing technologies. Additionally Progressive Web Apps are supposed to be able to work mobiley and many are buzzing that Progressive Web Apps will replace or at least become much more popular than mobile applications. </p>
-		</article>
-		<aside>
-			<h2>What Others Are Saying</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt necessitatibus nihil beatae asperiores, expedita numquam aperiam, esse inventore corporis soluta nostrum. Facere ullam excepturi qui necessitatibus hic, et pariatur nobis!</p>
-		</aside>
-		<footer>
-		</footer>
+			<div class="uk-cover-background uk-position-relative" style="height:200px; background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flower%2C_Herbaceous_peony_%22Echido-salmon%22_-_Flickr_-_nekonomania_%282%29.jpg/800px-Flower%2C_Herbaceous_peony_%22Echido-salmon%22_-_Flickr_-_nekonomania_%282%29.jpg);">
+			    <h1 class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">The Wonderful World Of Peonies</h1>
+			</div>
+			</div>
+			<div class="uk-grid">
+				<div class="uk-width-1-1">
+			        <nav class="uk-navbar">
+			        	<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+			            <ul class="uk-navbar-nav uk-hidden-small">
+			                <li class="uk-active"><a href="index.html"><i class="uk-icon-hover uk-icon-home uk-icon-medium"></i></a></li>
+			                <li><a href="resources.html">Types</a></li>
+			                <li class="uk-parent" data-uk-dropdown="">
+			                    <a href="">Contact</a>
+
+			                    <div class="uk-dropdown uk-dropdown-navbar">
+			                        <ul class="uk-nav uk-nav-navbar">
+			                            <li><a href="form.html">Feedback &nbsp;<i class="uk-icon-hover uk-icon-file-text-o uk-icon-justify"></i></a></li>
+			                        </ul>
+			                    </div>
+
+			                </li>
+			            </ul>
+			        </nav>
+			    </div>
+			</div>
+<!-- 		<h1>Are Progressive Web Apps The Future Of Applications?</h1>
+ -->	</header>
+		<div class="uk-grid">
+			<article class=" uk-width-medium-3-4 uk-push-1-4"> 
+				<h2>What Are They</h2>
+				<p>Peonies are vibrant beauties that are generally seen for a gloriously short amount of time in spring.</p>
+				<section class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+					<div class="uk-width-small-1-3">
+						<div class="uk-panel-box">
+	<!-- 					    <div class="uk-panel-badge uk-badge"></div>
+	 -->					<h3 class="uk-panel-title">Varieties</h3>
+						    <p>There are hundreds of different types of peonies and each has unique and breathtaking flowers. There are Tree peonies, Herbaceous peonies, Itoh peonies, Woodland peonies, and peonies from different regions have different styled leaves and flowers as well.</p>
+						</div>
+					</div>
+					<div class="uk-width-small-1-3">
+						<div class="uk-panel-box">
+	<!-- 					    <div class="uk-panel-badge uk-badge">...</div>
+	 -->					<h3 class="uk-panel-title">Seasons &amp; Range</h3>
+						    <p>Most peonies bloom in springtime, but some do bloom in summer as well. They are like daffodils quick to bloom, but vibrant to behold. Surprisingly peonies do well in cold climates and bloom better and longer when cooler. There zones fall around 2-9.</p>
+						</div>
+					</div>
+					<div class="uk-width-small-1-3">
+						<div class="uk-panel-box">
+	<!-- 					    <div class="uk-panel-badge uk-badge">...</div>
+	 -->					<h3 class="uk-panel-title">Care</h3>
+						    <p>Peonies are not tricky to care for. They often need to have their flowers propped because they are often too large to stand on their own. They are susceptible to fungi and other pests so care must be taken to dispose of old leaves every fall (not tree peonies) to keep peonies healthy. They also may need parasols to protect them from the sun, since they like a little shade. Ants love peonies, but don't worry sugar ants are not a pest and should be left alone.</p>
+						</div>
+					</div>
+				</section>
+                    
+			</article>
+			<aside class=" uk-width-medium-1-4 uk-pull-3-4">
+				<div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true, kenburns:true}">
+	                <ul class="uk-slideshow">
+	                	<li><img src="img/slideshow_woodland.jpg" alt="Paeonia mairei"></li>
+                        <li><img src="img/slideshow_tree.jpg" alt="Tree peony (Paeonia suffruticosa) 'Shimane Seidai' in the Jardin des Plantes of Paris."></li>
+                        <li><img src="img/slideshow_herbaceous.jpg" alt=""></li>
+                        <li><img src="img/slideshow_intersectional.jpg" alt="Paeonia 'First Arrival' Flower. It is an Itoh intersectional hybrid Peony. Identified by tag at the Coastal Maine Botanical Gardens"></li>
+	                </ul>
+				    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+				    <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+				    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+				        <li data-uk-slideshow-item="0"><a href=""></a></li>
+				        <li data-uk-slideshow-item="1"><a href=""></a></li>
+				        <li data-uk-slideshow-item="2"><a href=""></a></li>
+				        <li data-uk-slideshow-item="3"><a href=""></a></li>
+				    </ul>
+				</div>
+			</aside>
+		</div>
+		<footer style="text-align: center">&copy; Sam Grise 2017</footer>
+		<div id="offcanvas" class="uk-offcanvas">
+			<div class="uk-offcanvas-bar">
+				<ul class="uk-nav uk-nav-offcanvas">
+	                <li class="uk-active"><a href="index.html"><i class="uk-icon-hover uk-icon-home uk-icon-medium"></i></a></li>
+	                <li><a href="">Resources</a></li>
+	                <li class="uk-parent">
+	                    <a href="">Contact</a>
+	                        <ul class="uk-nav uk-nav-navbar">
+	                            <li><a href="form.html">Feedback &nbsp;<i class="uk-icon-hover uk-icon-file-text-o uk-icon-justify"></i></a></li>
+	                        </ul>
+	                </li>
+	            </ul>
+			</div>
+		</div>
     </body>
 </html>

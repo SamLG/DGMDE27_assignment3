@@ -1,0 +1,155 @@
+<!-- use picturefill for real responsive images -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+<!--         <link rel="stylesheet" href="css/uikit.gradient.min.css" />
+ -->        <!-- <link rel="stylesheet" href="css/components/slideshow.gradient.min.css">
+        <link rel="stylesheet" href="css/components/slidenav.gradient.min.css">
+        <link rel="stylesheet" href="css/components/dotnav.gradient.min.css"> -->
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>        
+        <script src="js/uikit.min.js"></script>
+        <script type="text/javascript" src="js/components/slideshow.min.js"></script>
+    </head>
+    <body class="uk-width-medium-9-10 uk-container-center">
+        <header>
+            <div class="uk-cover-background uk-position-relative" style="height:200px; background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flower%2C_Herbaceous_peony_%22Echido-salmon%22_-_Flickr_-_nekonomania_%282%29.jpg/800px-Flower%2C_Herbaceous_peony_%22Echido-salmon%22_-_Flickr_-_nekonomania_%282%29.jpg);">
+                <h1 class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">The Wonderful World Of Peonies</h1>
+            </div>
+            </div>
+            <div class="uk-grid">
+                <div class="uk-width-1-1">
+                    <nav class="uk-navbar">
+                        <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+                        <ul class="uk-navbar-nav uk-hidden-small">
+                            <li class="uk-active"><a href="index.html">Home</a></li>
+                            <li><a href="resources.html">Types</a></li>
+                            <li class="uk-parent" data-uk-dropdown="">
+                                <a href="">Contact</a>
+
+                                <div class="uk-dropdown uk-dropdown-navbar">
+                                    <ul class="uk-nav uk-nav-navbar">
+                                        <li><a href="form.html">Feedback</a></li>
+                                    </ul>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+<!--        <h1>Are Progressive Web Apps The Future Of Applications?</h1>
+ -->    </header>
+        <div class="uk-grid">
+            <div class="uk-width-medium-2-3 uk-container-center">
+                <h2>Let Us Know What You Think</h2>
+                <form onsubmit="#submitted" class="uk-form uk-form-horizontal">
+                    <div class="uk-form-row">
+                        <label class="uk-form-label" for="form-h-it">Do You Have A Favorite Peony?</label>
+                        <div class="uk-form-controls">
+                            <input id="form-h-it" placeholder="Peony Variety" type="text">
+                        </div>
+                    </div>
+                    <div class="uk-form-row">
+                        <span class="uk-form-label">Your USDA Zone</span>
+                        <div class="uk-form-controls uk-form-controls-text">
+                            <label for="form-h-mix1">Min</label>
+                            <select id="form-h-mix1">
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                            <select id="form-h-mix2">
+                                <option>a</option>
+                                <option>b</option>
+                            </select>
+                            <label for="form-h-mix3">Max</label>
+                            <select id="form-h-mix3">
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                            </select>
+                            <select id="form-h-mix4">
+                                <option>a</option>
+                                <option>b</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="uk-form-row">
+                        <label class="uk-form-label" for="form-h-t">What Is Your Experience With Peonies?</label>
+                        <div class="uk-form-controls">
+                            <textarea id="form-h-t" cols="30" rows="5" placeholder="Peony Experience"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="uk-form-row">
+                        <span class="uk-form-label">Which Kind Of Peony Do You Like Best?</span>
+                        <label><input name="radio" type="radio">
+                            <div class="uk-thumbnail">
+                                <img src="img/thumbnail_woodland.jpg" alt="Paeonia mairei">
+                                <div class="uk-thumbnail-caption">Woodland</div>
+                            </div>
+                        </label>
+                        <label><input name="radio" type="radio"> 
+                            <div class="uk-thumbnail">
+                                <img src="img/thumbnail_tree.jpg" alt="Tree peony (Paeonia suffruticosa) 'Shimane Seidai' in the Jardin des Plantes of Paris.">
+                                <div class="uk-thumbnail-caption">Tree</div>
+                            </div>
+                        </label>
+                        <label><input name="radio" type="radio">
+                            <div class="uk-thumbnail">
+                                <img src="img/thumbnail_herbaceous.jpg" alt="">
+                                <div class="uk-thumbnail-caption">Herbaceous</div>
+                            </div>
+                        </label>
+                        <label><input name="radio" type="radio">
+                            <div class="uk-thumbnail">
+                                <img src="img/thumbnail_intersectional.jpg" alt="Paeonia 'First Arrival' Flower. It is an Itoh intersectional hybrid Peony. Identified by tag at the Coastal Maine Botanical Gardens">
+                                <div class="uk-thumbnail-caption">Intersectional</div>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="uk-form-row">
+                        <button class="uk-button uk-button-large" type="submit" name="send" value="Submit">SUBMIT</button>
+                    </div>
+                </form> 
+            </div>                  
+        </div>
+        <footer style="text-align: center">&copy; Sam Grise 2017</footer>
+        <div id="offcanvas" class="uk-offcanvas">
+            <div class="uk-offcanvas-bar">
+                <ul class="uk-nav uk-nav-offcanvas">
+                    <li class="uk-active"><a href="">Home</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li class="uk-parent">
+                        <a href="">Contact</a>
+                            <ul class="uk-nav uk-nav-navbar">
+                                <li><a href="form.html">Feedback</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
