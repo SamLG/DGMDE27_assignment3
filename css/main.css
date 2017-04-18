@@ -12337,4 +12337,61 @@ h1 {
   font-weight: 500;
 }
 
+/* line 25, /Applications/MAMP/htdocs/DGMDE27_assignment3/scss/main.scss */
+.dynamic-gallery {
+  position: relative;
+  margin-left: -20px;
+  height: 394px;
+}
+
+/* line 30, /Applications/MAMP/htdocs/DGMDE27_assignment3/scss/main.scss */
+header .uk-cover-background {
+  height: 200px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flower%2C_Herbaceous_peony_%22Echido-salmon%22_-_Flickr_-_nekonomania_%282%29.jpg/800px-Flower%2C_Herbaceous_peony_%22Echido-salmon%22_-_Flickr_-_nekonomania_%282%29.jpg);
+}
+
+/* line 36, /Applications/MAMP/htdocs/DGMDE27_assignment3/scss/main.scss */
+.dynamic-gallery .zero {
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  top: 0px;
+  opacity: 1;
+  left: 0px;
+}
+
+/* line 44, /Applications/MAMP/htdocs/DGMDE27_assignment3/scss/main.scss */
+.dynamic-gallery .twoH {
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  top: 0px;
+  opacity: 1;
+  left: 210.683px;
+}
+
+/* line 52, /Applications/MAMP/htdocs/DGMDE27_assignment3/scss/main.scss */
+.dynamic-gallery .fourH {
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  top: 0px;
+  opacity: 1;
+  left: 421.366px;
+}
+
+/* line 61, /Applications/MAMP/htdocs/DGMDE27_assignment3/scss/main.scss */
+.dynamic-gallery .sixH {
+  position: absolute;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  top: 0px;
+  opacity: 1;
+  left: 632.049px;
+}
+
 /*# sourceMappingURL=../css/main.map */

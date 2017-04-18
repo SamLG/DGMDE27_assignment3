@@ -22,3 +22,52 @@ h1 {
 	color: black;
 	font-weight: 500;
 }
+.dynamic-gallery{
+	position: relative; 
+	margin-left: -20px; 
+	height: 394px;
+}
+header .uk-cover-background  {
+	height:200px; 
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flower%2C_Herbaceous_peony_%22Echido-salmon%22_-_Flickr_-_nekonomania_%282%29.jpg/800px-Flower%2C_Herbaceous_peony_%22Echido-salmon%22_-_Flickr_-_nekonomania_%282%29.jpg);
+}
+.dynamic-gallery { 
+	// styles added to maintain styling of dynamic grid
+	.zero {
+		position: absolute; 
+		box-sizing: border-box; 
+		padding-left: 20px; 
+		padding-bottom: 20px; 
+		top: 0px; opacity: 1; 
+		left: 0px;
+	}
+	.twoH {
+		position: absolute; 
+		box-sizing: border-box; 
+		padding-left: 20px; 
+		padding-bottom: 20px; 
+		top: 0px; opacity: 1; 
+		left: 210.683px;
+	}
+	.fourH {
+		position: absolute; 
+		box-sizing: border-box; 
+		padding-left: 20px; 
+		padding-bottom: 20px; 
+		top: 0px; 
+		opacity: 1; 
+		left: 421.366px;
+	}
+	.sixH {
+		position: absolute; 
+		box-sizing: border-box; 
+		padding-left: 20px; 
+		padding-bottom: 20px; 
+		top: 0px; 
+		opacity: 1; 
+		left: 632.049px;
+	}
+}
+
+
+
